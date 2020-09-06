@@ -1,4 +1,2 @@
-baseURL: https://nfriedli.github.io/minimalist-website/
-
 minify:
   minifyOutput: true
