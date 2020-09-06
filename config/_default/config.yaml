@@ -18,6 +18,15 @@ disableKinds:
 
 enableGitInfo: true
 
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      typographer: true
+    parser:
+      autoHeadingIDType: github-ascii
+
+
 params:
   title: Minimal website
   description: Un site vraiment minimaliste et pleinement fonctionnel
@@ -27,10 +36,4 @@ params:
   images:
     - https://cdn.pixabay.com/photo/2019/02/04/12/18/winter-3974511_960_720.jpg
 
-markup:
-  defaultMarkdownHandler: goldmark
-  goldmark:
-    extensions:
-      typographer: true
-    parser:
-      autoHeadingIDType: github-ascii
+publishDir: docs
