@@ -1,5 +1,5 @@
 ---
-title: Un site vraiment minimal
+title: Un site web minimaliste
 description: Minimaliste, fonctionnel, responsive et efficace
 ---
 

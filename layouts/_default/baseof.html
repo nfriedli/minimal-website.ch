@@ -7,7 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ block "title" . }} {{ .Title }} &bull; {{ .Site.Title }}{{ end }}</title>
     <link rel="canonical" href="{{ .Permalink }}">
-    {{ if .Description }}<meta name="description" content="{{ .Description }}">{{ end }}
+    {{ if .Description }}
+    <meta name="description" content="{{ .Description }}">
+    {{ end }}
     <link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}index.xml" title="{{ .Site.Title }}">
     <meta name="date" content="{{ .Date.Format "2006-01-02"}}">
     {{ template "_internal/opengraph.html" . }}
@@ -16,38 +18,62 @@
         html {
             background: #FFF;
             color: #333;
-            font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-size: 100%;
+            font-family: 'Open Sans', Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, sans-serif;
+            font-size: 110%;
             line-height: 1.5;
             text-rendering: optimizeSpeed;
         }
+
         body {
             display: flex;
             flex-direction: column;
-            min-height: 90vh;
+            margin: 0;
+            min-height: 100vh;
         }
-        header, main, footer {
+
+        header,
+        main,
+        footer {
             padding: 1rem 2rem;
         }
+
+        header,
+        footer {
+            background: #EEE;
+        }
+
         main {
             flex: auto;
         }
+
         footer {
             align-items: flex-end;
         }
+
         main {
             max-width: 70ch;
         }
 
         h1 {
-            font-size: 2rem;
+            font-size: 1.7rem;
             line-height: 1.2;
         }
+
         h2 {
             font-size: 1.4rem;
         }
+
         h3 {
             font-size: 1.2rem;
+        }
+
+        a:focus {
+            outline: 2px solid;
+        }
+
+        time {
+            color: #666;
+            font-size: .9rem;
         }
     </style>
 </head>

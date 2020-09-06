@@ -1,6 +1,6 @@
 baseURL: https://minimal-website.ch/
 languageCode: fr
-title: Minimal website
+title: Minimalist website
 
 author:
   name: Nicolas Friedli
@@ -32,8 +32,8 @@ params:
   description: Un site vraiment minimaliste et pleinement fonctionnel
   footer: |
     Test d'un site absolument minimal mais totalement efficace. 
+    Il propose un [abonnement par flux RSS](/index.xml).
+    Un projet de [Nicolas Friedli](https://nicolasfriedli.ch).
     Une idée inspirée par [The Hurricane Web](https://mxb.dev/blog/hurricane-web/) de Max Böck.
   images:
     - https://cdn.pixabay.com/photo/2019/02/04/12/18/winter-3974511_960_720.jpg
-
-publishDir: docs
