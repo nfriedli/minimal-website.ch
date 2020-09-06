@@ -15,11 +15,15 @@
     {{ template "_internal/opengraph.html" . }}
     {{ hugo.Generator }}
     <style>
+        html, body, h1, h2, h3, ol, ul, p {
+            margin: 0;
+        }
+
         html {
             background: #FFF;
             color: #333;
             font-family: 'Open Sans', Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, sans-serif;
-            font-size: 110%;
+            font-size: 100%;
             line-height: 1.5;
             text-rendering: optimizeSpeed;
         }
@@ -42,16 +46,29 @@
             background: #EEE;
         }
 
+        header {
+            border-bottom: 1px solid #DDD;
+        }
+
+        footer {
+            border-top: 1px solid #DDD;
+        }
+
         main {
             flex: auto;
+            max-width: 70ch;
+        }
+
+        main > * + * {
+            margin-top: 1em;
+        }
+
+        li time {
+            display: inline;
         }
 
         footer {
             align-items: flex-end;
-        }
-
-        main {
-            max-width: 70ch;
         }
 
         h1 {
@@ -74,6 +91,25 @@
         time {
             color: #666;
             font-size: .9rem;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+        }
+
+        @media screen and (min-width: 50em) {
+            html {
+                font-size: 120%;
+            }
+            header,
+            main,
+            footer {
+            padding: 2rem 4rem;
+            }
+            header, footer {
+                font-size: .9rem;
+            }
         }
     </style>
 </head>

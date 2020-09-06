@@ -21,6 +21,8 @@ Memores flammas duo supplex si trepidas ferebat, descendit tenuisse figuras,
 umbra, et, aqua. Tactis superi, voles bos Amphione mihi **rustica admoto**
 pelagoque nullum quam, nec Apollo in *dederam*.
 
+![Une image minimaliste](https://cdn.pixabay.com/photo/2019/02/04/12/18/winter-3974511_960_720.jpg "Auprès de mon arbre enneigé")
+
 Terris ad arduus ne sucis animam te hoc mergeret tepente colores **cortinaque
 magna victibus** ipso, agros. *Pisce inprobat et* nitor ignavos quotiens longe
 *timida*.
