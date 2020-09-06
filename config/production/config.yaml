@@ -1,4 +1,4 @@
-baseURL: https://nfriedli.github.io/minimal-website/
+baseURL: https://nfriedli.github.io/minimalist-website/
 
 minify:
   minifyOutput: true
