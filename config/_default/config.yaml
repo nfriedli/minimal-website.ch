@@ -29,14 +29,14 @@ markup:
 
 params:
   title: Minimal website
-  description: Un site minimal, fonctionnel et efficace.
+  description: Un site minimal, fonctionnel, efficace proposé et documenté par Nicolas Friedli.
   footer: |
     Un site minimal, fonctionnel et efficace. 
-    Abonnement par [flux RSS](/index.xml).
-    Un projet de [Nicolas Friedli](https://nicolasfriedli.ch).  
-    Réalisé avec [Hugo](https://gohugo.io/).
-    Sources chez [GitHub](https://github.com/nfriedli/minimal-website.ch).
-    Herbergé par [Netlify](https://www.netlify.com/).
+    Abonnement par [flux RSS](/index.xml "Toutes les actualités du site dans votre aggrégateur").
+    Proposé par [Nicolas Friedli](https://nicolasfriedli.ch "Consultant web indépendant à Neuchâtel (Suisse)").  
+    Réalisé avec [Hugo](https://gohugo.io/ "Générateur de sites statiques programmé en Go").
+    Sources chez [GitHub](https://github.com/nfriedli/minimal-website.ch "Suivi des sources avec Git").
+    Herbergé par [Netlify](https://www.netlify.com/ "Hébergement et déploiement par CDN").
     Sous licence Creative Commons CC0.
   images:
     - https://cdn.pixabay.com/photo/2019/02/04/12/18/winter-3974511_960_720.jpg
