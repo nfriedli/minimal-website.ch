@@ -1,0 +1,36 @@
+baseURL: https://minimal-website.ch/
+languageCode: fr
+title: Minimal website
+
+author:
+  name: Nicolas Friedli
+  email: nicolasfriedli@protonmail.ch
+
+canonifyURLs: true
+copyright: Creative Commons by-sa
+defaultContentLanguage: fr
+
+disableFastRender: true
+
+disableKinds: 
+  - taxonomy
+  - term
+
+enableGitInfo: true
+
+params:
+  title: Minimal website
+  description: Un site vraiment minimaliste et pleinement fonctionnel
+  footer: |
+    Test d'un site absolument minimal mais totalement efficace. 
+    Une idée inspirée par [The Hurricane Web](https://mxb.dev/blog/hurricane-web/) de Max Böck.
+  images:
+    - https://cdn.pixabay.com/photo/2019/02/04/12/18/winter-3974511_960_720.jpg
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      typographer: true
+    parser:
+      autoHeadingIDType: github-ascii
