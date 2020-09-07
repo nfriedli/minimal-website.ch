@@ -1,7 +1,7 @@
 ---
 title: Guide de style
-date: 2020-09-06
 description: Utilisation de tous les styles disponibles pour tester la feuille de style CSS du site.
+draft: true
 ---
 
 Dans ce billet, j'essaie d'utiliser toutes les mises en page qui seront disponibles ici.
@@ -29,11 +29,23 @@ Quand au ***gras italique***, je te laisse deviner, ami lecteur.
 Sans compter les ***variations* possibles** qui n'en ***finissent** pas*.
 Amusant, non?
 
+## Citations et notes de bas de page[^notes]
+
+On essaie Proust?
+
+> Longtemps, je me suis couché de bonne heure. Parfois, à peine ma bougie éteinte, mes yeux se fermaient *si vite* que je n’avais **pas le temps** de me dire: «Je m’endors[^2].» Et, une demi-heure après, la pensée qu’il était temps de chercher le sommeil m’éveillait...[^1]
+
+[^notes]: L'affichage des notes n'a aucun `CSS` pour le moment. Je ne les utilise pas...
+[^1]: C'est du Proust... raccourci.
+[^2]: Eh, bien! Il ne me reste qu'à te souhaiter une bonne nuit, mon chez Marcel. Et surtout ne te réveille pas trop tôt.
+
 ## Et une image, ça de dit, Raoul?
+
+Inclusion en markdown classique:
 
 ![Flamand rose sur fond rose](https://cdn.pixabay.com/photo/2020/08/29/14/39/flamingo-5527232_960_720.jpg "Mon ami le rose (et le flamand)")
 
-[À suivre...]
+[À compléter, notamment pour responsive design.]
 
 ## Listes
 
@@ -73,6 +85,8 @@ Ainsi que le liste un peu *numérotée* qui peut comporter -- ce n'est toujours 
 
 ### Et listes complexes
 
+Les puces:
+
 - Liste à puces simple, mais avec des textes un peu plus longs, afin de tester la mise en page de la chose.
   Je répète: **tester** la *mise en page* de la chose.
   La chose, c'est la liste.
@@ -86,6 +100,8 @@ Ainsi que le liste un peu *numérotée* qui peut comporter -- ce n'est toujours 
   Je répète: **tester** la *mise en page* de la chose.
   La chose, c'est la liste.
   
+La même, numérotée:
+
 1. Liste à puces simple, mais avec des textes un peu plus longs, afin de tester la mise en page de la chose.
    Je répète: **tester** la *mise en page* de la chose.
    La chose, c'est la liste.
@@ -99,6 +115,23 @@ Ainsi que le liste un peu *numérotée* qui peut comporter -- ce n'est toujours 
    Je répète: **tester** la *mise en page* de la chose.
    La chose, c'est la liste.
 
+### Liste de définition
+
+Malheureusement sous utilisée, elle est pertinente d'un point de vue sématique.
+Et efficace à la lecture.
+
+Le terme
+: La définition
+
+Exemple plus complexe
+: Une liste un peu bizarre, sous utilisée en HTML.
+: Seconde définition pour le même terme.
+
+Autre exemple
+Deux termes
+: Et une seule définition  
+  (avec un saut de ligne manuel)
+  
 ## Quelques liens
 
 Simplement copié et collé: https://minimal-website.ch et voilà.
@@ -117,3 +150,28 @@ Un tableau de données utile, avec des alignements à gauche, au centre et à dr
 
 [À suivre: § dans le tableau et reste de responsive.]
 
+## Le code
+
+Évidemment, il y a le petite machin `en ligne`, comme ici.
+Et le gros extrait de code.
+En python:
+
+```python
+def fact(n):
+    if n<2:
+        return 1
+    else:
+        return n*fact(n-1)
+```
+Et un extrait de template HTML de Go:
+
+```go-html-template
+{{ if .Description }}
+  <meta name="description" content="{{ .Description }}">
+{{ end }}
+
+<link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}index.xml" title="{{ .Site.Title }}">
+{{ template "_internal/opengraph.html" . }}
+```
+
+Joli, non?

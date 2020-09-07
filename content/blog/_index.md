@@ -1,6 +1,6 @@
 ---
-title: Le blog d'actualité
-description: Totalité des archives du site
+title: Blog 
+description: Tous les billets publiés sur l'actualité du site par ordre chronologique inverse.
 ---
 
-Par ordre antéchronologique, toutes les actualités publiées sur ce site en une seule page.
+Tous les billets publiés sur l'actualité du site par ordre chronologique inverse.
