@@ -15,7 +15,12 @@
     {{ template "_internal/opengraph.html" . }}
     {{ hugo.Generator }}
     <style>
-        html, body, h1, h2, h3, ol, ul, p {
+        /* 
+        Cf. https://github.com/maxboeck/emergency-site/ 
+
+        */
+
+        html, body, h1, h2, h3, dl, ol, ul, p, img {
             margin: 0;
         }
 
@@ -26,6 +31,7 @@
             font-size: 100%;
             line-height: 1.5;
             text-rendering: optimizeSpeed;
+            font-variant-numeric: oldstyle-nums;
         }
 
         body {
@@ -85,9 +91,13 @@
             align-items: flex-end;
         }
 
+        h1, h2, h3 {
+            line-height: 1.2;
+            font-variant-numeric: normal;
+        }
+
         h1 {
             font-size: 1.7rem;
-            line-height: 1.2;
         }
 
         h2 {
@@ -136,6 +146,7 @@
 
         table {
             border-collapse: collapse;
+            font-variant-numeric: tabular-nums slashed-zero;
         }
 
         td, th {
@@ -150,7 +161,7 @@
             header,
             main,
             footer {
-            padding: 2rem 4rem;
+                padding: 2rem 4rem;
             }
             header, footer {
                 font-size: .9rem;
