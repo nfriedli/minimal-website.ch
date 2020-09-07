@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/nicolasfriedli
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://minimal-website.ch
+  * I am nicolasfriedli (https://keybase.io/nicolasfriedli) on keybase.
+  * I have a public key with fingerprint E52C 0692 F997 ACAE 245A  7994 1C22 5532 42F5 C7AD
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b610f0e20e545c81d55206a401909435ec32a43f1c6143d6b96289bad2ec2b120a",
+      "fingerprint": "e52c0692f997acae245a79941c22553242f5c7ad",
+      "host": "keybase.io",
+      "key_id": "1c22553242f5c7ad",
+      "kid": "01017d20e33060f9a491a67b475253ffa918176571265a8bbf1fe7240b2e2a9cf5ef0a",
+      "uid": "f2c0bbeb95e10d006eec9b98f8a6db19",
+      "username": "nicolasfriedli"
+    },
+    "service": {
+      "hostname": "minimal-website.ch",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1599479374,
+  "expire_in": 157680000,
+  "prev": "f3acd31da83f0fec672036e8f67cc7a52999692f08bf6ebbdbe41294e90c980a",
+  "seqno": 40,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMN5AnicbVJrTBRXGN11weJWhAZ8/CCLmUqKgOvMnTeIyNYarAg2cdWypsudmTvs
+sOyDneUtrZVWrY+mr2BoYoViAEOg9UVsSxCogQK2tdZHn7RpsUppQ+Qhj1LsDNF/
+vX9u7v3OOfd8535Xwk0GszEGswPbZG+LcaDrdJHBucuSVYEJPqkMS67A3GhhQwUS
+UoNOtyJhyRhOAFxgCFzGEcARTdEiR0g0DXAGUjjB4zxF0kgkAaRImRAZgiIlRuAZ
+wPEClAASgaAJQCwJkxVvHgr4A4o3qMkiGog4wwOZ51koQgQoGrI8TxEiADRNAgrI
+tMhCSSO6fKrO0MwJUEVWxafdaQfngr3/wT/2jROspFkmSZzBZR5SPAEZVqBYGtCk
+LEOe4AiWoVkCMDTkBEEmZMQCChcAApAXZRrJC76LFuRkza4gIIGnEYFLOM4gJPIC
+z8kcZCSB4HWgigJe6EEa2quIvgKoygEFSQUKVpmEabViRUR6vHo/j3Aexat4YMG6
+EiSoShBZRZem4w/4gj6Nr9VdwaBfTdb5wTK/TtCAzkdSTkHxSlqmGqMYBVTF58WS
+CQ0pBhVdm6C1NFmeZKkkDJX6lQByKjqCZhkO15b+DirWOyOhKJGEBDlSxmUkMizA
+SQZxMsOKWqI04Hle/yicE2QGCYIkIIoAPIV4XOS5hYhUVOj1YcmUJhqEeZqmquR5
+YbAogLDK7q69IQaj2bA4dJE+bAbzksjHI1hyPGKemv0ofcuhbZ07YpdAgzc8oaEs
+6uCEtC+qsW4/F3erPdWxPucz9akbbx05WjoqPOGamds9+d4By7ytNSX8fFP+4ckZ
+e0ttc9Mra6gVyVlVpsme3IG7xT8v3/r5dn9sfI7a9RJl6fA82XQJjcyb3Fk7TUvX
+3gj5MXswMu5s696225UVHvILt22C68swr9mXGdv+16bh+sufLv63/PIzIGPZvZ3y
+7+Vv76r2DZa1Pax1dCTsyHu9h6OQefmlw9lWy3SioyRzqMi80TFCPj/e3mca+XN1
+aHNEotj9w5e/WtOnymfqiyL7svI7350+8c3Xpfaq1fV/h1y1NYblbj568bs7q67/
+0bmhLe3mzP5rUazxIL60NOb2ylMXxrYbU/cMTHt7Nhz5MP7Cs1srB2ip5jlrXJgv
+f86KYlKZkFBQufJcS5LLfv/+iaoabKjH+Gr2Iaw7fziCcl3tEH5S4y0Vn4y92Xzm
+rDx7PSM/OvPM8ZvpXTZLeOuDtVNdWyIvDno+GM7qTzHMJmLbHP+kfWW/kjB+952T
+e0JfVifc/dOF54+dm20enc98sfqF/rpaovfk0G/oNYelE1RXL3KH9YWEcWDjpjo7
+8+0MTKl4UNI29rFtRVjmge+Tuhs6Bk8/XfvGqLG3sDFm8+6cU7m37lxb5V3/vvpw
+6l50gxxdY1vWZsqZSCv7ZbzWOlewbuA/ojm91g==
+=k/S+
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nicolasfriedli
+
+==================================================================
