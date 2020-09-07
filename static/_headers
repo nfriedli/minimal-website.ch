@@ -5,6 +5,9 @@
     X-Frame-Options: DENY
     Cache-Control: max-age=86400
 
+/fonts/
+    Cache-Control: max-age=63072000
+
 /sitemap.xml
     X-Robots-Tag: noindex
     Cache-Control: max-age=3600
