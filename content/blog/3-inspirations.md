@@ -1,7 +1,7 @@
 ---
 title: 3 inspirations (et quelques autres)
 date: 2020-09-07
-description: Sites d'urgences utiles et ligne directriques brutalistes sont des inspirations pour ce site.
+description: Sites d'urgence utiles et lignes directrices brutalistes comme inspirations pour ce site.
 images:
 - https://cdn.pixabay.com/photo/2016/11/22/20/02/abstract-1850417_960_720.jpg
 --- 
