@@ -15,6 +15,7 @@ disableFastRender: true
 disableKinds: 
   - taxonomy
   - term
+  - robotsTXT
 
 enableGitInfo: true
 
