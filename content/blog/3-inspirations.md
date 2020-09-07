@@ -74,3 +74,5 @@ Que l'on pourrait traduire par:
 > Ces lignes directrices ne sont pas des règles restrictives pour produire des sites minimalistes ennuyeux. Elles sont plutôt des priorités qui placent les internautes -- la seule raison d'être de votre site -- au premier plan et au centre de tout.
 
 Je note.
+
+[À suivre: d'autres inspirations moins importantes que je retrouverai en voyant les noms des blogs dans mes flux RSS...]
