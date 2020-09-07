@@ -36,7 +36,7 @@ Et l'impression de revenir 20 ans en arrière et de retrouver un web simple et l
 Comme Max Böck a de la suite dans les idées, le voilà de retour à l'occasion de la crise sanitaire du Covid-19.
 Et là, il va beaucoup plus loin.
 
-Dans un article intitulé [The Emergency Website Kit](https://mxb.dev/blog/emergency-website-kit/), il annonce qu'il propose une site prêt à l'emploi pour les situations d'urgence.
+Dans un article intitulé [The Emergency Website Kit](https://mxb.dev/blog/emergency-website-kit/), il annonce qu'il propose un site prêt à l'emploi pour les situations d'urgence.
 Ce n'est pas, comme dans les cas précédents, une déclinaison simplifiée d'un site existant, mais un site en soi.
 
 Rapide, lisible, adapté à un réseau défaillant, facile à déployer aussi pour des non techniciens, c'est un très beau projet.
