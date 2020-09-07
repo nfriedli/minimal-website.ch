@@ -1,2 +1,5 @@
 minify:
   minifyOutput: true
+  tdewolff:
+    html:
+      keepQuotes: true # Recommandation W3C
