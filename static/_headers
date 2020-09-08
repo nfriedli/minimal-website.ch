@@ -4,10 +4,7 @@
     X-XSS-Protection: 1; mode=block
     X-Frame-Options: DENY
     Cache-Control: max-age=86400
-    Link: <https://minimal-website.ch/fonts/public-sans-v4-latin-ext_latin-regular.woff2>; as=font; crossorigin; rel=preload
-    Link: <https://minimal-website.ch/fonts/public-sans-v4-latin-ext_latin-700.woff2>; as=font; crossorigin; rel=preload
-    Link: <https://minimal-website.ch/fonts/public-sans-v4-latin-ext_latin-italic.woff2>; as=font; crossorigin; rel=preload
-
+  
 /fonts/
     Cache-Control: max-age=63072000
 
