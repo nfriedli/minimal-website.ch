@@ -1,5 +1,5 @@
 ---
-title: Quelles différentes entre «minimal» et «minimalisme»?
+title: Quelles différences entre «minimal» et «minimalisme»?
 date: 2020-09-08
 description: Entre courant artistique du XXe siècle et démarche pragmatique aujourd'hui, le vocabulaire interroge.
 images:
