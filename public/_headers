@@ -5,10 +5,10 @@
     X-Frame-Options: DENY
     Cache-Control: max-age=86400
   
-/fonts/
+/fonts/*
     Cache-Control: max-age=63072000
 
-/images/
+/images/*
     Cache-Control: max-age=63072000
 
 /sitemap.xml
