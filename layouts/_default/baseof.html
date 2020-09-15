@@ -235,7 +235,11 @@
         {{ block "main" . }}{{ end }}
     </main>
     <footer>
-        {{ if not .IsHome }}<nav>{{ partial "breadcrumb" . }} {{ .Title }}</nav>{{ end }}
+        {{ if .IsHome }}
+            <nav>{{ range .Pages}}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}</nav>
+        {{ else }}
+            <nav>{{ partial "breadcrumb" . }} {{ .Title }}</nav>
+        {{ end }}
         {{ .Site.Params.footer | markdownify}}
     </footer>
 </body>
